@@ -1,0 +1,19 @@
+package com.onerivet.services.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.onerivet.models.payload.EmployeeDto;
+import com.onerivet.services.EmployeeService;
+
+@Service
+public class EmployeeServiceImpl  implements EmployeeService {
+
+	@Override
+	public List<EmployeeDto> getAllEmployees() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

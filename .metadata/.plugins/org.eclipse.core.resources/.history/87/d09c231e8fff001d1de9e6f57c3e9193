@@ -1,0 +1,5 @@
+package com.onerivet.models.entity;
+
+public class City {
+
+}

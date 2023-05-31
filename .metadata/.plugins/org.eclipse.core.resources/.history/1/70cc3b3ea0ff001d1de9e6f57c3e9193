@@ -1,0 +1,8 @@
+spring:
+   datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=DeskBookDev;encrypt=true;trustServerCertificate=true
+    username: sa
+    password: Admin#123
+
+server:
+   port: 9442    

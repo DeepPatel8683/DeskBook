@@ -1,0 +1,5 @@
+package com.onerivet.models.response;
+
+public class GenericResponse<T> {
+
+}

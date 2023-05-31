@@ -1,0 +1,30 @@
+package com.onerivet.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.onerivet.models.payload.EmployeeDto;
+import com.onerivet.models.response.GenericResponse;
+import com.onerivet.services.EmployeeService;
+
+@RestController
+@RequestMapping("/api/deskbookhome/user-profile")
+public class EmployeeController {
+	
+	@Autowired
+	private EmployeeService employeeService;
+	
+	
+	public GenericResponse<List<EmployeeDtop>> GetAll{
+		
+		
+		
+	}
+	
+	
+	
+
+}
